@@ -24,6 +24,7 @@
   },
   "author": "Liam Martens <hi@liammartens.com>",
   "license": "GPL-3.0-or-later",
+  "files": ["lib"],
   "devDependencies": {
     "bun-types": "^0.7.3",
     "typescript": "^5.1.6"
