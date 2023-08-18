@@ -1,0 +1,26 @@
+{
+  "name": "extended-promise",
+  "type": "module",
+  "sideEffects": false,
+  "version": "0.0.0",
+  "description": "Extended promise with status management",
+  "keywords": [
+    "promise"
+  ],
+  "types": "./lib/index.d.ts",
+  "module": "./lib/index.js",
+  "exports": {
+    "types": "./lib/index.d.ts",
+    "import": "./lib/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "bun test"
+  },
+  "author": "Liam Martens <hi@liammartens.com>",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "bun-types": "^0.7.3",
+    "typescript": "^5.1.6"
+  }
+}

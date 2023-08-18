@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "es2020",
+    "moduleResolution": "node16",
+    "target": "es2020",
+    "strict": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "lib",
+    "declaration": true,
+    "lib": ["ES2022", "DOM"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
