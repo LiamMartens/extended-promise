@@ -1,5 +1,5 @@
 {
-  "name": "extended-promise",
+  "name": "managed-status-promise",
   "type": "module",
   "sideEffects": false,
   "version": "1.0.0",
