@@ -2,7 +2,7 @@
   "name": "extended-promise",
   "type": "module",
   "sideEffects": false,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Extended promise with status management",
   "keywords": [
     "promise"
@@ -12,6 +12,11 @@
   "exports": {
     "types": "./lib/index.d.ts",
     "import": "./lib/index.js"
+  },
+  "homepage": "https://github.com/LiamMartens/extended-promise",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:LiamMartens/extended-promise.git"
   },
   "scripts": {
     "build": "tsc -p .",
