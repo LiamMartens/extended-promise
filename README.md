@@ -4,7 +4,7 @@ This library provides an extended Promise with status management
 
 ## Usage
 ```js
-import { ExtendedPromise, PromiseStatus } from 'extended-promise';
+import { ExtendedPromise, PromiseStatus } from 'managed-status-promise';
 
 /**
  * @README the internal promise will always resolve
